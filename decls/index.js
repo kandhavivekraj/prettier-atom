@@ -111,6 +111,7 @@ declare type Prettier$CursorResult = {
   formatted: any,
   cursorOffset: number,
 };
+declare type Prettier$FileInfo = { exists: boolean, ignored: boolean, inferredParser: string };
 declare type Linter$Message = {
   // NOTE: These are given by providers
   location: {
